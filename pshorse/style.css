@@ -32,14 +32,14 @@ img, video {
 }
 
 /* ========== HERO SECTION ========== */
-.zvr2_hero {
+.hero {
   background: linear-gradient(180deg, #1a0000 0%, #0a0a0a 100%);
   padding: 50px 20px 30px;
   text-align: center;
   border-bottom: 3px solid #cc0000;
 }
 
-.zvr2_badge {
+.badge {
   display: inline-block;
   background: #cc0000;
   color: #fff;
@@ -53,7 +53,7 @@ img, video {
   border-radius: 2px;
 }
 
-.zvr2_headline {
+.headline {
   font-family: 'Oswald', sans-serif;
   font-size: 2.1rem;
   font-weight: 700;
@@ -64,11 +64,11 @@ img, video {
   margin: 0 auto 20px;
 }
 
-.zvr2_headline .zvr2_red {
+.headline .red {
   color: #ff1a1a;
 }
 
-.zvr2_sub-headline {
+.sub-headline {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 1.15rem;
   font-weight: 400;
@@ -78,18 +78,18 @@ img, video {
   margin: 0 auto;
 }
 
-.zvr2_sub-headline strong {
+.sub-headline strong {
   color: #f5c842;
   font-weight: 700;
 }
 
 /* ========== VIDEO SECTION ========== */
-.zvr2_video-section {
+.video-section {
   padding: 35px 20px 25px;
   text-align: center;
 }
 
-.zvr2_video-wrapper {
+.video-wrapper {
   max-width: 640px;
   margin: 0 auto;
   position: relative;
@@ -102,12 +102,12 @@ img, video {
   display: block;
 }
 
-.zvr2_video-wrapper:hover {
+.video-wrapper:hover {
   box-shadow: 0 0 50px rgba(204, 0, 0, 0.35);
   border-color: #cc0000;
 }
 
-.zvr2_video-thumbnail {
+.video-thumbnail {
   width: 100%;
   aspect-ratio: 16/9;
   background: linear-gradient(135deg, #1a1a1a 0%, #2a1a1a 50%, #1a1a1a 100%);
@@ -117,7 +117,7 @@ img, video {
   position: relative;
 }
 
-.zvr2_video-thumbnail::before {
+.video-thumbnail::before {
   content: '';
   position: absolute;
   inset: 0;
@@ -125,8 +125,8 @@ img, video {
   z-index: 1;
 }
 
-.zvr2_video-thumbnail img,
-.zvr2_video-thumbnail video {
+.video-thumbnail img,
+.video-thumbnail video {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -134,7 +134,7 @@ img, video {
   inset: 0;
 }
 
-.zvr2_play-btn {
+.play-btn {
   width: 80px;
   height: 80px;
   background: rgba(204, 0, 0, 0.9);
@@ -148,12 +148,12 @@ img, video {
   animation: pulse-ring 2s ease-out infinite;
 }
 
-.zvr2_video-wrapper:hover .zvr2_play-btn {
+.video-wrapper:hover .play-btn {
   transform: scale(1.1);
   background: rgba(255, 26, 26, 1);
 }
 
-.zvr2_play-btn::after {
+.play-btn::after {
   content: '';
   width: 0;
   height: 0;
@@ -169,7 +169,7 @@ img, video {
   100% { box-shadow: 0 0 0 0 rgba(204, 0, 0, 0); }
 }
 
-.zvr2_video-label {
+.video-label {
   font-family: 'Oswald', sans-serif;
   position: absolute;
   bottom: 0;
@@ -186,12 +186,12 @@ img, video {
 }
 
 /* ========== CTA BUTTONS ========== */
-.zvr2_cta-container {
+.cta-container {
   text-align: center;
   padding: 20px 20px 10px;
 }
 
-.zvr2_cta-btn {
+.cta-btn {
   display: inline-block;
   background: linear-gradient(180deg, #e81919 0%, #a00 100%);
   color: #fff;
@@ -211,21 +211,21 @@ img, video {
   width: 100%;
 }
 
-.zvr2_cta-btn:hover {
+.cta-btn:hover {
   transform: translateY(-2px);
   box-shadow: 0 6px 30px rgba(204, 0, 0, 0.6);
 }
 
-.zvr2_cta-btn:active {
+.cta-btn:active {
   transform: translateY(0);
 }
 
-.zvr2_cta-bottom {
+.cta-bottom {
   text-align: center;
   padding: 10px 20px 50px;
 }
 
-.zvr2_cta-btn-bottom {
+.cta-btn-bottom {
   display: inline-block;
   background: linear-gradient(180deg, #e81919 0%, #a00 100%);
   color: #fff;
@@ -247,12 +247,12 @@ img, video {
   overflow: hidden;
 }
 
-.zvr2_cta-btn-bottom:hover {
+.cta-btn-bottom:hover {
   transform: translateY(-2px);
   box-shadow: 0 6px 30px rgba(204, 0, 0, 0.6);
 }
 
-.zvr2_cta-btn-bottom::after {
+.cta-btn-bottom::after {
   content: '';
   position: absolute;
   top: 0;
@@ -268,7 +268,7 @@ img, video {
   100% { left: 100%; }
 }
 
-.zvr2_cta-sub {
+.cta-sub {
   font-family: 'Source Sans Pro', sans-serif;
   color: #999;
   font-size: 0.82rem;
@@ -276,40 +276,40 @@ img, video {
   letter-spacing: 0.5px;
 }
 
-.zvr2_cta-sub .zvr2_lock-icon {
+.cta-sub .lock-icon {
   margin-right: 4px;
 }
 
 /* ========== BODY COPY ========== */
-.zvr2_body-copy {
+.body-copy {
   max-width: 640px;
   margin: 0 auto;
   padding: 30px 24px 20px;
 }
 
-.zvr2_body-copy p {
+.body-copy p {
   margin-bottom: 22px;
   color: #d0d0d0;
   font-size: 1.05rem;
   line-height: 1.8;
 }
 
-.zvr2_body-copy strong {
+.body-copy strong {
   color: #ffffff;
   font-weight: 700;
 }
 
-.zvr2_body-copy .zvr2_highlight {
+.body-copy .highlight {
   color: #f5c842;
   font-weight: 700;
 }
 
-.zvr2_body-copy .zvr2_red-text {
+.body-copy .red-text {
   color: #ff4444;
   font-weight: 700;
 }
 
-.zvr2_body-copy .zvr2_highlight-block {
+.body-copy .highlight-block {
   background: linear-gradient(135deg, rgba(204, 0, 0, 0.08) 0%, rgba(245, 200, 66, 0.05) 100%);
   border-left: 3px solid #f5c842;
   padding: 18px 22px;
@@ -319,21 +319,21 @@ img, video {
 }
 
 /* ========== FOOTER ========== */
-.zvr2_footer {
+.footer {
   border-top: 1px solid #222;
   padding: 24px 20px;
   text-align: center;
   margin-top: 20px;
 }
 
-.zvr2_footer-links {
+.footer-links {
   display: flex;
   justify-content: center;
   gap: 24px;
   margin-bottom: 16px;
 }
 
-.zvr2_footer-links a {
+.footer-links a {
   color: #888;
   font-size: 0.8rem;
   text-decoration: none;
@@ -343,11 +343,11 @@ img, video {
   transition: color 0.2s ease;
 }
 
-.zvr2_footer-links a:hover {
+.footer-links a:hover {
   color: #ccc;
 }
 
-.zvr2_footer-disclaimer {
+.footer-disclaimer {
   color: #555;
   font-size: 0.72rem;
   line-height: 1.6;
@@ -357,43 +357,43 @@ img, video {
 
 /* ========== RESPONSIVE ========== */
 @media (max-width: 480px) {
-  .zvr2_headline {
+  .headline {
     font-size: 1.55rem;
   }
-  .zvr2_sub-headline {
+  .sub-headline {
     font-size: 1rem;
   }
-  .zvr2_body-copy p {
+  .body-copy p {
     font-size: 1rem;
   }
-  .zvr2_cta-btn, .zvr2_cta-btn-bottom {
+  .cta-btn, .cta-btn-bottom {
     font-size: 1.05rem;
     padding: 16px 24px;
   }
-  .zvr2_play-btn {
+  .play-btn {
     width: 65px;
     height: 65px;
   }
-  .zvr2_play-btn::after {
+  .play-btn::after {
     border-width: 11px 0 11px 20px;
   }
-  .zvr2_video-label {
+  .video-label {
     font-size: 0.78rem;
     letter-spacing: 1px;
   }
 }
 
 @media (min-width: 768px) {
-  .zvr2_hero {
+  .hero {
     padding: 60px 30px 40px;
   }
-  .zvr2_headline {
+  .headline {
     font-size: 2.6rem;
   }
-  .zvr2_sub-headline {
+  .sub-headline {
     font-size: 1.25rem;
   }
-  .zvr2_body-copy {
+  .body-copy {
     padding: 40px 20px 30px;
   }
 }
